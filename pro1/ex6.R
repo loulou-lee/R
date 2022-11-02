@@ -29,7 +29,7 @@ xmlSApply(rootNode, xmlValue)
 
 xpathSApply(rootNode,"//LBRRY_NAME", xmlValue)
 
-# ----------------------------------
+# ---------------------------------
 # json data 읽기
 install.packages("rjson")
 library(rjson)

@@ -18,7 +18,7 @@ par(mfrow=c(1,2))
 # par(mfcol=c(1,2))
 barplot(stu$grade,col = c(1,2,3))
 barplot(stu$grade,col = c(1,2,3), horiz = T)
-qplot
+#qplot
 
 par(mfrow=c(1,1))
 barplot(stu$grade,col = c(1,2,3), space = 2) #막대와 막대 사이 간격 space
@@ -37,7 +37,7 @@ min(stu$height)
 max(stu$height)
 boxplot(stu$height, range = 0) # range = 1
 boxplot(stu$height, range = 1, notch = T)
-abline(h=170, 11y=3, col='blue')
+abline(h=170, lly=3, col='blue')
 
 #hist
 hist(stu$height, xlab = '키', breaks = 5, prob=T, col = 'yellow')
@@ -53,7 +53,6 @@ plot(price, type="l")                   # 유형 : 실선
 plot(price, type="o")                   # 유형 : 원형과 실선
 plot(price, type="h")                   # 직선
 plot(price, type="s")                   # 꺾은선
-
 
 # 3차원 산점도 그래프 ---
 par(mfrow=c(1,1))
